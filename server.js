@@ -2,6 +2,9 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import sql from 'mssql';
 import cors from 'cors';
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const app = express();
 const port = 3001;
@@ -13,10 +16,10 @@ app.use(cors({
 }));
 
 const dbConfig = {
-    user: 'Harlys Almanzar',
-    password: 'Harlys@1234',
-    server: 'Harlys',
-    database: 'Tracker',
+    user: process.env.DATABASE_USER,
+    password: process.env.DATABASE_PASSWORD,
+    server: process.env.DATABASE_SERVER,
+    database: process.env.DATABASE,
     options: {
         trustServerCertificate: true,
         enableArithAbort: true,
