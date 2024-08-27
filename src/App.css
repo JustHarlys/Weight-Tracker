@@ -1,0 +1,117 @@
+#root {
+  max-width: 100vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  border: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.25vw;
+  width: 100vw;
+  padding: 30px 25px;
+  border-bottom: 1px solid black;
+  box-shadow: 10px 5px 10px  black;
+}
+
+.nav--logo {
+  width: 60px;
+  margin: 20px;
+}
+
+.nav > h1 {
+  color: #008000;
+}
+
+div.form {
+  display: block;
+  text-align: center;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(80vh - 23vh);
+}
+
+.form--input {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+label {
+  color: #008000;
+}
+
+.btn {
+  background-color: rgb(40, 145, 26);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.handleclick {
+  background-color: rgb(40, 145, 26);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: rgb(21, 75, 14);
+  transition: .3s ease all;
+}
+
+.show--weight--h1 {
+  color: #008000;
+  text-align: center;
+}
+
+table {
+  width: 100vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #008000;
+}
+
+td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr {
+  color: white;
+  text-align: center;
+}
+
+

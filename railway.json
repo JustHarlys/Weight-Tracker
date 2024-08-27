@@ -1,0 +1,10 @@
+{
+    "build": {
+      "cmd": "npm install",
+      "output": "build"
+    },
+    "start": {
+      "cmd": "node server.js"
+    }
+  }
+  
